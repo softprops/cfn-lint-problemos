@@ -5,6 +5,7 @@
             "pattern": [
                 {
                     "regexp": "^(E|W|I)(\\d{4})\\s(.+)$",
+                    "severity": 1,
                     "code": 2,
                     "message": 3
                 },
