@@ -4,9 +4,9 @@
             "owner": "cfn-lint",
             "pattern": [
                 {
-                    "regexp": "^((E|W|I)(\\d{4}))\\s(.+)$",
+                    "regexp": "^([EWI](\\d{4}))\\s(.+)$",
                     "code": 1,
-                    "message": 2
+                    "message": 3
                 },
                 {
                     "regexp": "^(\\S+):(\\d+):(\\d+)$",
