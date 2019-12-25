@@ -8,11 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-      - name: Install Problem Matchers
-        run: |
-          echo "::add-matcher::.github/cfn-lint.json"   
+        uses: actions/checkout@v2  
       - name: cfn-lint
-        uses: scottbrenner/cfn-lint-action@master
+        uses: softprops/cfn-lint-action@problem-matchers
         with:
           args: '**/*.cf.yml'
