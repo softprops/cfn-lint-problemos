@@ -5,5 +5,5 @@ Parameters:
     Description: I'm not used
     Type: String
   Bar:
-    Description: I'm also not used
+    Description: I'm not used
     Type: String
